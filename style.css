@@ -1,0 +1,71 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(247, 247, 247);
+    background-image: url(images/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50px 50px;
+}
+div {
+    background-color: black;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px
+}
+html {
+    font-size: 100%;
+}
+
+/*メインコンテンツここから*/
+
+h1 {
+    color: green;
+    background-color: aqua;
+    font-size: 36px;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    font-family: serif;
+    line-height: 1.7;
+    text-align: justify;
+    color: rgb(50, 168, 145);
+}
+div p {
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    padding: 30px 0px 0px 30px;
+    margin: 50px 30px 0 30px;
+    border-bottom: 2px solid #fff;
+    ol {
+    list-style; disc dicimal outside;
+}
+}
+ul {
+    list-style-type: disc;
+}
+div ol {
+    list-style; disc outside;
+    list-style-color: white;
+    color: white;   
+}
+.blue {
+    color: #0bd;
+}
+#orange {
+    color: #fa2;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
